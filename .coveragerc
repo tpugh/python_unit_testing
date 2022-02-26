@@ -28,3 +28,7 @@ ignore_errors = True
 
 [html]
 directory = coverage_html_report
+
+[paths]
+source =
+ ~/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/pugh56/python_unit_testing
