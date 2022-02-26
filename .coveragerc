@@ -1,7 +1,9 @@
 # .coveragerc to control coverage.py
 [run]
-branch = True
+branch = False
 relative_files = True
+omit =
+        *_test.py
 
 [report]
 # Regexes for lines to exclude from consideration
@@ -31,4 +33,4 @@ directory = coverage_html_report
 
 [paths]
 source =
- ~/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/pugh56/python_unit_testing
+ ~/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/pugh56/python_unit_testing/

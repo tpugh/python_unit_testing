@@ -1,0 +1,4 @@
+#!/bin/bash
+python -m coverage run -m unittest discover -p '*_test.py' && python -m coverage report 
+rm -rf ./__pycache__
+rm -rf ./tests/__pycache__
